@@ -1,0 +1,231 @@
+@font-face {
+    font-family: flurr;
+    src= url(flurr.tff) format(truetype);
+    font-style: normal;
+    font-weight: 600px;
+}
+
+body{
+  background:
+}
+.head{
+  z-index: 1;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 60px;
+  /* color: white; */
+  background: white;
+  outline: none;
+  box-shadow:  0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+.right{
+  z-index: 2;
+  outline: none;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  width: 250px;
+  height: 100%;
+  /* border-width: 2px; */
+  /* border-left-style: solid; */
+  /* border-color: #9da5b4; */
+  background: blue;
+}
+.right-top{
+  position: fixed;
+  z-index: 1;
+  font-family: flurr, sans-serif;
+  width: 100%;
+  color: white;
+  text-align: center;
+  tab-size: 20px;
+  height: 60px;
+  background: linear-gradient(to right, blue , #00abff);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+.left{
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 250px;
+  height: 100%;
+  outline: none;
+  z-index: -1;
+
+}
+.bottom-search{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  height: 45px;
+  background: linear-gradient(to right, blue , #0043ff);
+}
+.sdsd{
+  height: 30px;
+  top: 7.8px;
+  left: 13px;;
+  align-self: center;
+  position: absolute;
+  width: 90%;
+  background: #1200ff;
+  outline: none;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  border-color: #0000548a;
+  border-radius: 500px;
+
+}
+
+.search-input-bottom{
+  width: 80%;
+  right:0px;
+  top: 0px;
+  background:#1200ff;
+  border-radius: 500px;
+  border: none;
+  outline: none;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  padding: 5px;
+}
+.flurr-logo{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 3px;
+  left: 20px;
+  border-radius: 50%;
+  border-color:  #c5c5ea;
+  border-style: solid;
+  border-width: 2px;
+}
+.dot{
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+  background: pink;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.b-dot{
+  position: absolute;
+  /* top: 50%;
+  right: 50%; */
+  height: 20px;
+  width: 20px;
+  border: none;
+  border-radius: 50%;
+  margin-top: 3px;
+  margin-left: -23px;
+  /* background: pink; */
+  border-color: pink;
+  border-style: solid;
+  border-width: 2px;
+}
+.online-user{
+  position: relative;
+  width: 250px;
+  border-bottom-style: solid;
+  border-color: #0000548a;
+  height: 50px;
+  border-width: 1px;
+
+}
+.user-profile{
+  position: absolute;
+  background: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  top: 50%;
+  margin-top: -20px;
+  left: 10px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+
+}
+
+.username{
+  position: absolute;
+  top: 10px;
+  left: 60px;
+  color: white;;
+}
+.spacing{
+  position: relative;
+  top: 0px;
+  right: 0px;
+  height: 70px;
+
+}
+.message-icon{
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  margin-top: -20px;
+  width: 40px;
+  height: 40px;
+}
+.content{
+  position: absolute;
+  top: 0px;
+  /* background: red; */
+  left: 250px;
+}
+.post{
+  width: 90%;
+  height: 500px;
+  position: relative;
+  margin-bottom: 10px;
+  background: #f6f6f6;
+  left: 50%;
+  margin-left: -45%;
+  border-radius: 8px;
+  box-shadow: 2px 6px 13px 0px rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+.create-new-post{
+  width: 90%;
+  height: 70px;
+  position: relative;
+  left: 50%;
+  margin-left: -45%;
+
+  margin-bottom: 10px;
+
+}
+.sbdabsj{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 86%;
+  height: 100%;
+  border-radius: 8px;
+  background: #f6f6f6;
+  box-shadow: 2px 6px 13px 0px rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+.ajdhg{
+  position: absolute;
+  top: 20px;
+  left: -20px;
+  width: 20px;
+  height: 20px;
+  background: #f6f6f6;
+  outline: none;
+  box-shadow: 2px 6px 13px rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+.post-text{
+  outline: none;
+  /* color: white; */
+  padding-right: 10px;
+  background: #f6f6f6;
+  border: none;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 95%;
+  height: 80%;
+}
